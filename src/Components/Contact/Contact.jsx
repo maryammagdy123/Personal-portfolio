@@ -26,7 +26,7 @@ export default function Contact() {
 								<label for="exampleInput4">User password :</label>
 								<input type="password" class="form-control" id="exampleInput4" aria-describedby="userPass" placeholder="User password" />
 							</div>
-							<button type="submit" class="btn btn-primary">sen message</button>
+							<button type="submit" class="btn btn-primary">send message</button>
 						</form>
 					</div>
 				</div>

@@ -1,4 +1,11 @@
 import './portfolio.css'
+import Daniels from '../../assets/328shots_so.jpeg'
+import Mealify from '../../assets/237shots_so.jpeg'
+import Weather from '../../assets/262shots_so.png'
+import Bookmarker from '../../assets/758shots_so.png'
+import DevFolio from '../../assets/434shots_so.png'
+import Bento from '../../assets/823shots_so.jpeg'
+
 import { useState } from 'react';
 
 const projects = [
@@ -7,7 +14,7 @@ const projects = [
     description:
       "A responsive and interactive personal portfolio website built using Bootstrap 5, enhanced with custom JavaScript functionalities and  Typed.js.",
     techStack: "HTML , CSS , Bootstrap & TypedJs",
-    imgSrc: "../../../src/assets/328shots_so.jpeg",
+    imgSrc: Daniels,
     liveLink: "https://maryammagdy123.github.io/Daniels/",
     githubLink: "https://github.com/maryammagdy123/Daniels.git",
   },
@@ -16,7 +23,7 @@ const projects = [
     description:
       "A responsive restaurant-themed website built using only HTML and CSS. It features a modern, clean design and aims to showcase a food-related interface.",
     techStack: "HTML , CSS , Bootstrap",
-    imgSrc: "../../../src/assets/237shots_so.jpeg",
+    imgSrc: Mealify,
     liveLink: "https://maryammagdy123.github.io/Mealify/",
     githubLink: "https://github.com/maryammagdy123/Mealify.git",
   },
@@ -25,7 +32,7 @@ const projects = [
     description:
       "A simple weather forecast web application that displays current and 3-day weather information for any city using the WeatherAPI.",
     techStack: "HTML , CSS , JS & API",
-    imgSrc: "../../../src/assets/262shots_so.png",
+    imgSrc: Weather,
     liveLink: "https://maryammagdy123.github.io/Weather-app/",
     githubLink: "https://github.com/maryammagdy123/Weather-app.git",
   },
@@ -34,7 +41,7 @@ const projects = [
     description:
       "A simple web-based bookmarking app that lets users save, visit, and delete their favorite websites. Built with Vanilla JavaScript, Bootstrap, and localStorage for data persistence.",
     techStack: "HTML , CSS & JS",
-    imgSrc: "../../../src/assets/758shots_so.png",
+    imgSrc: Bookmarker,
     liveLink: "https://maryammagdy123.github.io/Bookmarker/",
     githubLink: "https://github.com/maryammagdy123/Bookmarker.git",
   },
@@ -43,7 +50,7 @@ const projects = [
     description:
       "DevFolio is a responsive single-page portfolio website built using HTML, CSS, and Bootstrap. It's designed to present profile, skills, services, work, blog, and contact information and professional manner.",
     techStack: "HTML , CSS & Bootstrap",
-    imgSrc: "../../../src/assets/434shots_so.png",
+    imgSrc: DevFolio,
     liveLink: "https://maryammagdy123.github.io/Bookmarker/",
     githubLink: "https://github.com/maryammagdy123/Bookmarker.git",
   },
@@ -52,7 +59,7 @@ const projects = [
     description:
       "This project is a frontend layout challenge focused on creating a bento-style grid layout using only HTML and CSS. It highlights key UI concepts such as visual hierarchy, grid-based design, and responsive adaptation.",
     techStack: "HTML & CSS",
-    imgSrc: "../../../src/assets/823shots_so.jpeg",
+    imgSrc: Bento,
     liveLink: "https://github.com/maryammagdy123/bento-grid.git",
     githubLink: "https://github.com/maryammagdy123/bento-grid.git",
   },
@@ -71,8 +78,8 @@ export default function Portfolio() {
           </div>
 
           <div className="row gy-5">
-            {projects.map(({imgSrc,title,description,techStack,liveLink,githubLink}, index) => (
-             
+            {projects.map(({ imgSrc, title, description, techStack, liveLink, githubLink }, index) => (
+
               <div className="col-md-4" key={index}>
                 <div className="card portfolio-card h-100">
                   <img
