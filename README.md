@@ -1,7 +1,7 @@
 # Portfolio React Website
 
 ## Description
-This is a React-based portfolio website featuring multiple pages including Home, About, Portfolio, and Contact. The site uses React Router for navigation, Bootstrap for responsive design, and Isotope for portfolio layout management.
+This is a React-based portfolio website featuring multiple pages including Home, About, Portfolio, and Contact. The site uses React Router for navigation, Bootstrap for responsive design.
 
 ## Features
 - Multi-page navigation using React Router

@@ -15,14 +15,14 @@ import Layout from './Layout/Layout'
 function App() {
   let Routes = createBrowserRouter([{
 
-    path: "/", element: <Layout />, children: [
-      { index: true, element: <Home /> },
-      { path: "home", element: <Home /> },
-      { path: "about", element: <About /> },
-      { path: "portfolio", element: <Portfolio /> },
-      { path: "contact", element: <Contact /> }
-    ]
-  }])
+   path:"/",element:<Layout/>,children:[
+    {index:true,element:<Home/>},
+    {path:"home",element:<Home/>},
+    {path:"about",element:<About/>},
+    {path:"portfolio",element:<Portfolio/>},
+    {path:"contact",element:<Contact/>}
+   ]
+ }])
 
   return <RouterProvider router={Routes} />
 }
