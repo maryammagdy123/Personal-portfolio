@@ -24,8 +24,6 @@ export default function Home() {
 								<a href=""><i class="fa-brands fa-figma fa-2"></i></a>
 							</div>
 						</div>
-
-
 					</div>
 				</div>
 				<div className="col-md-4 my-3">

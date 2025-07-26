@@ -2,12 +2,12 @@
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import './App.css'
 
-import About from './Components/About/About'
-import Portfolio from './Components/Portfolio/Portfolio'
+import About from './Components/About/About.jsx'
+import Portfolio from './Components/Portfolio/Portfolio.jsx'
 
-import Contact from './Components/Contact/Contact'
-import Home from './Components/Home/Home'
-import Layout from './Layout/Layout'
+import Contact from './Components/Contact/Contact.jsx'
+import Home from './Components/Home/Home.jsx'
+import Layout from './Layout/Layout.jsx'
 
 
 
