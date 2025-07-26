@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from "../../../src/assets/MARYAM.png"
 import './home.css'
 export default function Home() {
 	return (
@@ -15,7 +16,7 @@ export default function Home() {
 							journey in UI design. I look forward to connecting with others and
 							growing in this dynamic field.</p>
 						<div class="btn-sci d-flex flex-column flex-sm-row">
-								<a href="#" className="btn bg-primary my-3">Download CV</a>
+							<a href="#" className="btn bg-primary my-3">Download CV</a>
 							<div class="sci d-flex justify-content-center align-items-center mx-auto ">
 								<a href=""><i className="fa-brands fa-behance fa-2"></i></a>
 								<a href=""><i class="fa-brands fa-github fa-2"></i></a>
@@ -23,12 +24,12 @@ export default function Home() {
 								<a href=""><i class="fa-brands fa-figma fa-2"></i></a>
 							</div>
 						</div>
-					
-						
+
+
 					</div>
 				</div>
 				<div className="col-md-4 my-3">
-					<img src="../../../src/assets/MARYAM.png" className='Logo' alt="logo" />
+					<img src={Logo} className='Logo' alt="logo" />
 				</div>
 			</div>
 		</div>
