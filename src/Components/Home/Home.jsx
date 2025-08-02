@@ -7,7 +7,7 @@ export default function Home() {
 			<div className="row">
 				<div className="col-md-8">
 					<div className="about-content">
-						<h1 className='text-primary'>Marya Magdy</h1>
+						<h1 className='text-primary'>Maryam Magdy</h1>
 						<p className='fw-medium'>I'm <span className='text-primary'>Ui designer</span> & <br /><span className='text-primary'>Front-End Developer</span> </p>
 						<p>I'm a UI designer passionate about creating intuitive user
 							experiences. Currently based in Cairo, I am dedicated to learning and
